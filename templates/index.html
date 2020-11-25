@@ -1,0 +1,14 @@
+<!-- The /index page of our Flask application consists of a brief welcoming message to the user and an one-field form. This form has a text input field that 
+    requires a phrase. By pressing the submit button, we send the input phrase to the /phrase page.-->
+<html>
+    <head>
+        <title>Deloitte - Cloud engineer assignment</title>
+    </head>
+    <body>
+        <p>Hello there, user!</p>
+        <form action="/phrase" method = "POST">
+            <p>Please enter your phrase here: <input type = "text" name = "phrase_context" size = "75" /></p>
+            <p><input type = "submit" value = "Submit" /></p>
+        </form>
+    </body>
+</html>
